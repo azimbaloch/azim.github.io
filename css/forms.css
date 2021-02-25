@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #00D4FF;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+}
+p, .abdtype {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+legend{
+	background: #000000;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 20px; 
+}
+fieldset{
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 16px 0; 
+	padding: 40px 20px;
+}
+button{
+	background-color: #000000;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	font-size: 18px;
+	cursor: pointer;
+	border: none;
+}
+button:hover{
+	background-color: #386150;
+}
+label{
+	display: block;
+	margin-bottom: 10px;
+}
+input:not([type="radio"], [type="checkbox"]), option, select{
+	margin-bottom: 20px;
+	width: 200px;
+}
+textarea{
+	height: 150px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
